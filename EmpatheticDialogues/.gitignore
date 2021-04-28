@@ -1,0 +1,13 @@
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyCharm
+.idea/
+
+# Python
+*.pyc
+
+# Repo-specific
+retrieved_split_*
