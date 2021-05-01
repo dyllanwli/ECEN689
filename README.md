@@ -12,6 +12,4 @@ SENTIMENT
 + Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset
 + Towards Facilitating Empathic Conversations in Online Mental
 Health Support: A Reinforcement Learning Approach
-+ Transformer Decoder Based Reinforcement
-Learning Approach for Conversational Response
-Generation
++ Transformer Decoder Based Reinforcement Learning Approach for Conversational Response Generation
