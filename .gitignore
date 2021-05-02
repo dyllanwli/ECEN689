@@ -13,3 +13,6 @@ dist/
 retrieved_split_*
 
 *.mdl
+
+
+from_pretrained/*
