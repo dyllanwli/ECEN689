@@ -14,6 +14,9 @@ import random
 import numpy as np
 import torch
 
+# for analyzing
+from convlab2.util.analysis_tool.analyzer import Analyzer
+
 # BERT nlu
 sys_nlu = BERTNLU()
 # simple rule DST
@@ -26,7 +29,6 @@ sys_nlg = TemplateNLG(is_user=False)
 sys_agent = PipelineAgent(sys_nlu, sys_dst, sys_policy, sys_nlg, name='sys')
 print("sys agent generated\n")
 
-# MILU
 user_nlu = BERTNLU()
 # not use dst
 user_dst = None
@@ -72,8 +74,9 @@ print('final goal:')
 pprint(sess.evaluator.goal)
 print('='*100)
 
-from convlab2.util.analysis_tool.analyzer import Analyzer
-
+"""
+Analyzing agents
+"""
 # if sys_nlu!=None, set use_nlu=True to collect more information
 analyzer = Analyzer(user_agent=user_agent, dataset='multiwoz')
 
