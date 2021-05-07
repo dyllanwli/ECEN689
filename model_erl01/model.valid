@@ -1,0 +1,6 @@
+valid:
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs     f1  gpu_mem  llen  loss  lr  ltpb  ltps  \
+           0 .000951 67.48 67.48  1650       0          0 24.46 8069 .08723  .001435  15.4  5.97   1  15.4 376.7   
+    ltrunc  ltrunclen   ppl  token_acc  token_em  total_train_updates   tpb  tps  
+         0          0 391.3      .2718         0                12078 82.88 2027
+

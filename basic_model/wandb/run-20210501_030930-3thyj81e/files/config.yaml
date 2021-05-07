@@ -1,0 +1,457 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.28
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.7.10
+    t:
+      1:
+      - 1
+      2:
+      - 1
+      - 5
+      3:
+      - 1
+      - 2
+      4: 3.7.10
+      5: 0.10.28
+      8:
+      - 1
+      - 5
+adafactor_eps:
+  desc: null
+  value:
+  - 1.0e-30
+  - 0.001
+adam_eps:
+  desc: null
+  value: 1.0e-08
+add_p1_after_newln:
+  desc: null
+  value: false
+aggregate_micro:
+  desc: null
+  value: false
+allow_missing_init_opts:
+  desc: null
+  value: false
+attention:
+  desc: null
+  value: dot
+attention_length:
+  desc: null
+  value: 48
+attention_time:
+  desc: null
+  value: post
+batchsize:
+  desc: null
+  value: 16
+beam_block_full_context:
+  desc: null
+  value: true
+beam_block_list_filename:
+  desc: null
+  value: null
+beam_block_ngram:
+  desc: null
+  value: -1
+beam_context_block_ngram:
+  desc: null
+  value: -1
+beam_delay:
+  desc: null
+  value: 30
+beam_length_penalty:
+  desc: null
+  value: 0.65
+beam_min_length:
+  desc: null
+  value: 1
+beam_size:
+  desc: null
+  value: 1
+betas:
+  desc: null
+  value:
+  - 0.9
+  - 0.999
+bidirectional:
+  desc: null
+  value: false
+bpe_add_prefix_space:
+  desc: null
+  value: null
+bpe_debug:
+  desc: null
+  value: false
+bpe_dropout:
+  desc: null
+  value: null
+bpe_merge:
+  desc: null
+  value: null
+bpe_vocab:
+  desc: null
+  value: null
+compute_tokenized_bleu:
+  desc: null
+  value: false
+datapath:
+  desc: null
+  value: /usr/local/lib/python3.7/dist-packages/data
+datatype:
+  desc: null
+  value: train
+decoder:
+  desc: null
+  value: same
+delimiter:
+  desc: null
+  value: '
+
+    '
+dict_class:
+  desc: null
+  value: parlai.core.dict:DictionaryAgent
+dict_endtoken:
+  desc: null
+  value: __end__
+dict_file:
+  desc: null
+  value: basic_model/model.dict
+dict_include_test:
+  desc: null
+  value: false
+dict_include_valid:
+  desc: null
+  value: false
+dict_initpath:
+  desc: null
+  value: null
+dict_language:
+  desc: null
+  value: english
+dict_loaded:
+  desc: null
+  value: false
+dict_lower:
+  desc: null
+  value: false
+dict_max_ngram_size:
+  desc: null
+  value: -1
+dict_maxexs:
+  desc: null
+  value: -1
+dict_maxtokens:
+  desc: null
+  value: -1
+dict_minfreq:
+  desc: null
+  value: 0
+dict_nulltoken:
+  desc: null
+  value: __null__
+dict_starttoken:
+  desc: null
+  value: __start__
+dict_textfields:
+  desc: null
+  value: text,labels
+dict_tokenizer:
+  desc: null
+  value: re
+dict_unktoken:
+  desc: null
+  value: __unk__
+display_examples:
+  desc: null
+  value: false
+download_path:
+  desc: null
+  value: null
+dropout:
+  desc: null
+  value: 0.1
+dynamic_batching:
+  desc: null
+  value: null
+embedding_projection:
+  desc: null
+  value: random
+embedding_type:
+  desc: null
+  value: random
+embeddingsize:
+  desc: null
+  value: 128
+eval_batchsize:
+  desc: null
+  value: null
+eval_dynamic_batching:
+  desc: null
+  value: null
+evaltask:
+  desc: null
+  value: null
+force_fp16_tokens:
+  desc: null
+  value: false
+fp16:
+  desc: null
+  value: false
+fp16_impl:
+  desc: null
+  value: safe
+gpu:
+  desc: null
+  value: -1
+gradient_clip:
+  desc: null
+  value: 0.1
+hiddensize:
+  desc: null
+  value: 128
+hide_labels:
+  desc: null
+  value: false
+history_add_global_end_token:
+  desc: null
+  value: null
+history_reversed:
+  desc: null
+  value: false
+history_size:
+  desc: null
+  value: -1
+image_cropsize:
+  desc: null
+  value: 224
+image_mode:
+  desc: null
+  value: raw
+image_size:
+  desc: null
+  value: 256
+inference:
+  desc: null
+  value: greedy
+init_model:
+  desc: null
+  value: null
+init_opt:
+  desc: null
+  value: null
+input_dropout:
+  desc: null
+  value: 0.0
+interactive_mode:
+  desc: null
+  value: false
+invsqrt_lr_decay_gamma:
+  desc: null
+  value: -1
+is_debug:
+  desc: null
+  value: false
+label_truncate:
+  desc: null
+  value: null
+learningrate:
+  desc: null
+  value: 1
+load_from_checkpoint:
+  desc: null
+  value: true
+log_every_n_secs:
+  desc: null
+  value: -1
+log_every_n_steps:
+  desc: null
+  value: 50
+loglevel:
+  desc: null
+  value: info
+lookuptable:
+  desc: null
+  value: all
+lr_scheduler:
+  desc: null
+  value: reduceonplateau
+lr_scheduler_decay:
+  desc: null
+  value: 0.5
+lr_scheduler_patience:
+  desc: null
+  value: 3
+max_train_steps:
+  desc: null
+  value: -1
+max_train_time:
+  desc: null
+  value: 300.0
+metrics:
+  desc: null
+  value: default
+model:
+  desc: null
+  value: seq2seq
+model_file:
+  desc: null
+  value: basic_model/model
+momentum:
+  desc: null
+  value: 0
+mutators:
+  desc: null
+  value: null
+nesterov:
+  desc: null
+  value: true
+no_cuda:
+  desc: null
+  value: false
+num_epochs:
+  desc: null
+  value: -1
+num_workers:
+  desc: null
+  value: 0
+numlayers:
+  desc: null
+  value: 2
+numsoftmax:
+  desc: null
+  value: 1
+nus:
+  desc: null
+  value:
+  - 0.7
+optimizer:
+  desc: null
+  value: sgd
+parlai_home:
+  desc: null
+  value: /usr/local/lib/python3.7/dist-packages
+person_tokens:
+  desc: null
+  value: false
+rank_candidates:
+  desc: null
+  value: false
+remove_political_convos:
+  desc: null
+  value: false
+rnn_class:
+  desc: null
+  value: lstm
+save_after_valid:
+  desc: null
+  value: false
+save_every_n_secs:
+  desc: null
+  value: -1
+short_final_eval:
+  desc: null
+  value: false
+skip_generation:
+  desc: null
+  value: false
+special_tok_lst:
+  desc: null
+  value: null
+split_lines:
+  desc: null
+  value: false
+starttime:
+  desc: null
+  value: May01_03-09
+task:
+  desc: null
+  value: empathetic_dialogues
+temperature:
+  desc: null
+  value: 1.0
+tensorboard_log:
+  desc: null
+  value: false
+tensorboard_logdir:
+  desc: null
+  value: null
+text_truncate:
+  desc: null
+  value: null
+topk:
+  desc: null
+  value: 10
+topp:
+  desc: null
+  value: 0.9
+train_experiencer_only:
+  desc: null
+  value: false
+truncate:
+  desc: null
+  value: 64
+update_freq:
+  desc: null
+  value: 1
+use_reply:
+  desc: null
+  value: label
+validation_cutoff:
+  desc: null
+  value: 1.0
+validation_every_n_epochs:
+  desc: null
+  value: -1
+validation_every_n_secs:
+  desc: null
+  value: -1
+validation_every_n_steps:
+  desc: null
+  value: -1
+validation_max_exs:
+  desc: null
+  value: -1
+validation_metric:
+  desc: null
+  value: accuracy
+validation_metric_mode:
+  desc: null
+  value: max
+validation_patience:
+  desc: null
+  value: 10
+validation_share_agent:
+  desc: null
+  value: false
+verbose:
+  desc: null
+  value: false
+wandb_entity:
+  desc: null
+  value: null
+wandb_log:
+  desc: null
+  value: true
+wandb_name:
+  desc: null
+  value: dyllanwli
+wandb_project:
+  desc: null
+  value: ecen689-project
+warmup_rate:
+  desc: null
+  value: 0.0001
+warmup_updates:
+  desc: null
+  value: -1
+weight_decay:
+  desc: null
+  value: null
